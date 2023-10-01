@@ -1,0 +1,36 @@
+//imports and partials
+@import "./variables";
+@import "./login";
+@import "./kundportal";
+
+//fonts (Eurosoft + Poppins)
+@import url(https://db.onlinewebfonts.com/c/f88dbea6d58cf679690b1f9f93714d4f?family=Eurosoft+W03+Medium);
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+//global styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $primary_bg;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #409e99;
+  border-radius: 50%;
+  display: flex;
+  z-index: 3;
+}
+.main-button {
+  background: $mainBtn_bg;
+  color: #fff;
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Eurosoft W03 Medium";
+}
